@@ -89,7 +89,7 @@ class Home extends Component {
                   number={12.479}
                   numbertxt="Dashboard | Completed batches"
                   icon={faFileInvoice}
-                  description="Lorem ipsum dolor sit amet,sdds consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                 />
               </Link>
               <Link to="#" className="statistics">
