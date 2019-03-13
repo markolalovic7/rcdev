@@ -6,10 +6,12 @@ import "../../assets/header.css"; // Header.js uses these styles
 class Header extends Component {
   render() {
     return (
-      <header>
-        <Logo />
-        <RightMenu />
-      </header>
+      <React.Fragment>
+        <header>
+          <Logo />
+          <RightMenu />
+        </header>
+      </React.Fragment>
     );
   }
 }

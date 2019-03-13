@@ -1,0 +1,16 @@
+.breadcrumb {
+  padding: 0 4em;
+  text-align: left;
+}
+.breadcrumb li {
+  list-style: none;
+}
+.breadcrumb ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+.breadcrumb a {
+  color: #636f78;
+  text-decoration: none;
+  font-weight: bold;
+}
