@@ -105,6 +105,11 @@
   transition: 0.5s;
   margin-bottom: 0;
 }
+.dashboard .description p {
+  max-height: initial; /* fallback */
+  -webkit-line-clamp: initial; /* number of lines to show */
+  -webkit-box-orient: initial;
+}
 .Homepageblock .imagelink img {
   max-width: 50px;
 }
