@@ -1,0 +1,67 @@
+header {
+  /*height: 20vh;*/
+  margin-bottom: 2em;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+header .RightMenu {
+  flex-grow: 8;
+  text-align: right;
+}
+header .RightMenu ul {
+  display: table;
+  padding: 0;
+  float: right;
+}
+header .RightMenu ul li {
+  display: table-cell;
+  vertical-align: middle;
+}
+header .RightMenu ul li a {
+  text-decoration: none;
+  color: #636f78;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+header .RightMenu ul li a:hover {
+  color: #333;
+}
+header .RightMenu ul li a span {
+  display: none;
+}
+header .RightMenu ul li a path {
+  color: #636f78;
+}
+header .logo {
+  padding: 1em;
+  flex-grow: 2;
+}
+header .notification a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 100%;
+  background: #fff;
+}
+header .notification a:hover {
+  background: #f6f6f6;
+}
+header .notification svg {
+  padding: 7px 8px;
+  display: block;
+}
+header .user svg {
+  padding: 10px 11px;
+  display: block;
+}
+header .user a {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border-radius: 100%;
+  background: #636f78;
+}
+header .RightMenu .user path {
+  color: #fff;
+}

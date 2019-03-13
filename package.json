@@ -1,0 +1,59 @@
+{
+  "name": "rcdev",
+  "version": "1.0.0",
+  "description": "An app to teach you to write React",
+  "main": "src/App.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markolalovic7/rcdev.git"
+  },
+  "author": "Marko Lalovic <markolalovic7@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/markolalovic7/rcdev.git/issues"
+  },
+  "homepage": "https://github.com/markolalovic7/rcdev.git#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.10.0",
+    "gh-pages": "^2.0.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@reach/router": "^1.1.1",
+    "create-readme": "^2.1.0",
+    "git-add": "0.0.2",
+    "git-commit": "0.0.3",
+    "git-first-commit": "^2.0.1",
+    "git-init": "^1.0.0",
+    "git-remote-add": "^1.0.0",
+    "petfinder-client": "^0.0.3",
+    "react": "^16.8.4",
+    "react-charts": "^2.0.0-alpha.12",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
+    "recharts": "^1.5.0",
+    "remote-origin-url": "^2.0.0"
+  },
+  "keywords": []
+}
