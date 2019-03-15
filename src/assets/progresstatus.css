@@ -1,0 +1,23 @@
+.progress span {
+  text-transform: uppercase;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.progress span.failed {
+  color: red;
+  background: #ffd5d5;
+}
+.progress span.working {
+  color: orange;
+  background: #fdefd6;
+}
+.progress span.pending {
+  color: grey;
+  background: #eaeaea;
+}
+.progress span.completed {
+  color: green;
+  background: #d7ffd7;
+}

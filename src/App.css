@@ -30,3 +30,9 @@ body {
 aside {
   flex: 0;
 }
+input {
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 3px solid #636f77;
+}

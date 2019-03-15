@@ -71,9 +71,55 @@ thead {
 }
 table {
   display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: grey;
   width: 100%;
   text-align: left;
+  background: #fff;
+}
+thead th {
+  padding: 1em 1.5em;
+  border: none;
+  border-spacing: 0px !important;
+  border-collapse: collapse;
+  color: #636f75;
+}
+.totalTable {
+  color: #636f75;
+}
+tbody tr:first-child {
+  background-color: rgb(99, 111, 117);
+  color: white;
+}
+legend,
+td,
+th {
+  padding: 1em 1.5em;
+}
+tfoot tr td {
+  border: none;
+  background: #fff;
+  border-top: 3px solid #f6f6f6;
+}
+tfoot tr td i,
+tfoot tr td b {
+  margin: 5px;
+  color: #636f75;
+}
+tfoot tr td span.active {
+  background: #f6f6f6;
+}
+tfoot tr td span {
+  padding: 0 3px;
+  border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+  }
+  .tg col {
+    width: auto !important;
+  }
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }

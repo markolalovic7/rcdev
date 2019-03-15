@@ -4,6 +4,7 @@ header {
   overflow: hidden;
   display: flex;
   align-items: stretch;
+  padding: 1em;
 }
 header .RightMenu {
   flex-grow: 8;
@@ -13,6 +14,7 @@ header .RightMenu ul {
   display: table;
   padding: 0;
   float: right;
+  margin: 0;
 }
 header .RightMenu ul li {
   display: table-cell;
@@ -23,6 +25,7 @@ header .RightMenu ul li a {
   color: #636f78;
   margin: 0 10px;
   transition: 0.2s;
+  margin-right: 0;
 }
 header .RightMenu ul li a:hover {
   color: #333;
@@ -34,7 +37,6 @@ header .RightMenu ul li a path {
   color: #636f78;
 }
 header .logo {
-  padding: 1em;
   flex-grow: 2;
 }
 header .notification a {
@@ -45,7 +47,7 @@ header .notification a {
   background: #fff;
 }
 header .notification a:hover {
-  background: #f6f6f6;
+  background: #fdfdfd;
 }
 header .notification svg {
   padding: 7px 8px;
