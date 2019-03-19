@@ -6,7 +6,7 @@
 }
 .flex-grid a {
   padding: 1em 1.5em;
-  background: #f6f6f6;
+  background: #fff;
   color: #333;
   text-decoration: none;
   -webkit-transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1),
@@ -19,7 +19,7 @@
     box-shadow 0.2s ease;
   transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #eaeaea;
 }
 .flex-grid a:hover {
   border-radius: 4px;
@@ -33,8 +33,8 @@
   -ms-transition: transform 0.2s cubic-bezier(0.34, 2, 0.6, 1),
     box-shadow 0.2s ease;
   transition: transform 0.2s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
-  background: rgb(249, 249, 249);
-  border: 1px solid #ececec;
+  background: #fff;
+  border: 1px solid #eaeaea;
 }
 .flex-grid a:hover > .Homepageblock .tagname h2/*,
 .flex-grid a:hover > .Homepageblock .description p*/ {

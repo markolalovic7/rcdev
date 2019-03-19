@@ -9,19 +9,17 @@ class ProgressTable extends Component {
     return (
       <div className="ProgressTable">
         <div className="tg-wrap">
-          <table className="tg">
-            <thead>
-              <tr>
-                <th className="tg-0pky" colSpan="4">
-                  Batch
-                </th>
-                <th className="tg-0pky" colSpan="5">
-                  Documents
-                </th>
-              </tr>
-            </thead>
+          <table className="tg table">
+            <tr>
+              <th className="tg-0pky" colSpan="4">
+                Batch
+              </th>
+              <th className="tg-0pky" colSpan="5">
+                Documents
+              </th>
+            </tr>
             <tbody>
-              <tr>
+              <tr className="thead-light">
                 <td className="tg-0pky">Name</td>
                 <td className="tg-0pky">Step</td>
                 <td className="tg-0pky">Action</td>

@@ -26,13 +26,13 @@ class Dashboard extends Component {
                 <Tabs>
                   <div label="Dashboard">
                     <FilterBatches />
-                    <div className="ProgressTableWrap">
+                    <div className="ProgressTableWrap table-wrap">
                       <ProgressTable />
                     </div>
                   </div>
                   <div label="Completed Batches">
                     <FilterBatches />
-                    <div className="CompletedBatchesWrap">
+                    <div className="CompletedBatchesWrap table-wrap">
                       <CompletedBatches />
                     </div>
                   </div>

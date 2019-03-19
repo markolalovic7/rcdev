@@ -1,27 +1,36 @@
 .tab-list {
   padding: 0;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0em;
 }
 .tab-list li {
   display: inline-block;
-  margin: 0px;
   margin-left: 0;
   cursor: pointer;
-  padding: 0.5em 1.5em 0.5em;
+  padding: 0.4em 1em;
+  margin: 1em 0.5em;
   border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  background: #636f78;
+  opacity: 0.7;
+  transition: 0.3s;
 }
 .tab-list li:hover {
-  background: #fdfdfd;
+  color: #fff;
+  background: #636f78;
+  opacity: 1;
 }
 .tab-list-active {
-  background: #f6f6f6 !important;
+  color: #fff !important;
+  background: #636f78 !important;
+  opacity: 1 !important;
 }
 .tab-content {
   padding: 0;
   border-radius: 0px;
   padding: 1em 1.5em;
-  background: #f6f6f6;
+  background: #fff;
   border-radius: 4px;
 }
 .FilterBatches {
@@ -35,11 +44,19 @@
   cursor: pointer;
 }
 .ChackboxLast100 label {
-  border: 3px solid #636f76;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 234, 234);
   padding: 5px 1.5em;
   border-radius: 4px;
-  background: #fff;
+  background: #f1f1f1;
   cursor: pointer;
+}
+.ChackboxLast100 span {
+  color: #757575;
+}
+.ChackboxLast100 input[type="checkbox"]:checked + span {
+  color: #333;
 }
 form {
   width: auto;
@@ -60,15 +77,23 @@ form {
   border-radius: 4px;
   outline: none;
   min-width: 250px;
-  border: 3px solid #636f77;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 234, 234);
+  background: #f1f1f1;
+  color: #333;
 }
 .form .FilterInput input.search {
   padding: 5px 1.5em;
   border-radius: 4px;
   outline: none;
   min-width: 250px;
-  border: 3px solid #636f77;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 234, 234);
+  background: #f1f1f1;
   padding-right: 35px;
+  color: #333;
 }
 .FilterInput {
   position: relative;
@@ -95,7 +120,7 @@ form {
   color: #818c92;
 }
 .react-datepicker__close-icon::after {
-  background-color: #ffffff !important;
+  background-color: #f1f1f1 !important;
   bottom: 0px !important;
   color: #636f76 !important;
   font-size: 20px !important;

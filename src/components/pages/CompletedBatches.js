@@ -13,14 +13,14 @@ class CompletedBatches extends Component {
     return (
       <div className="CompletedBatches">
         <div className="tg-wrap">
-          <table className="tg">
+          <table className="tg table">
             <thead>
               <tr>
                 <th className="tg-0pky">Batch</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr className="thead-light">
                 <td className="tg-0pky">Name</td>
                 <td className="tg-0pky">Step</td>
                 <td className="tg-0pky">Action</td>

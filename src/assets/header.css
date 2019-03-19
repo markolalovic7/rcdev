@@ -44,10 +44,10 @@ header .notification a {
   height: 30px;
   display: block;
   border-radius: 100%;
-  background: #fff;
+  background: #f1f1f1;
 }
 header .notification a:hover {
-  background: #fdfdfd;
+  background: #e8e8e8;
 }
 header .notification svg {
   padding: 7px 8px;
