@@ -612,7 +612,7 @@
   position: absolute;
   height: 16px;
   width: 16px;
-  top: 25%;
+  top: 15%;
   right: 7px;
 }
 .react-datepicker__close-icon::after {

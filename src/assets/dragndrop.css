@@ -1,0 +1,74 @@
+.DragAndDropFile label {
+  text-align: center;
+  display: block;
+  border-radius: 3px;
+  margin: 0.5em 0em 0em 0;
+  padding: 3em;
+  cursor: pointer;
+  border: 3px dashed rgb(187, 223, 255);
+  background: rgb(232, 241, 249);
+}
+.DragAndDropFile select {
+  width: 100%;
+}
+.DragAndDropFile label input {
+  display: block;
+  width: 0;
+  margin: 0 auto;
+  padding: 0;
+  height: 0;
+}
+.import {
+  padding: 1em 1.5em;
+  background: #fff;
+  border-radius: 4px;
+}
+.importbatchWrap {
+  background: #fff;
+  margin-top: 1px;
+  border-radius: 4px;
+}
+.DragAndDropFile svg {
+  display: block;
+  margin: 0 auto;
+  font-size: 50px;
+}
+.DragAndDropFile svg path {
+  fill: #636f78;
+}
+.DragAndDropFile small {
+  opacity: 0.5;
+}
+.DragAndDropFile .pure-button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 0.5em 4em;
+}
+.DragAndDropFile label p {
+  margin-top: 0;
+  color: #636f78;
+}
+.relative {
+  position: relative;
+  z-index: 1;
+}
+.DragAndDropFile em {
+  background: #e8f1f9;
+  width: 50px;
+  display: initial;
+  padding: 5px 10px;
+}
+.DragAndDropFile em:after {
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background: #dedede;
+  content: "";
+  width: 100%;
+  display: block;
+  z-index: -1;
+  left: 0;
+}
+.import-right {
+  padding-right: 1.5em;
+}

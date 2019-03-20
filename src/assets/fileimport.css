@@ -1,0 +1,21 @@
+.FileImport {
+  padding: 1em;
+}
+
+.ChooseSource {
+  text-align: left;
+  padding: 1em 0em;
+}
+select {
+  padding: 5px 1.5em;
+  border-radius: 4px;
+  outline: none;
+  min-width: 250px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 234, 234);
+  background: #f1f1f1;
+  padding-right: 35px;
+  color: #818c92;
+  cursor: pointer;
+}

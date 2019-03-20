@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/progresstatus.css";
+import "../../../assets/progresstatus.css";
 
 const ProgressStatus = props => {
   return (

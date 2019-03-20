@@ -1,0 +1,27 @@
+.importButtonsWrap {
+  text-align: right;
+  margin-bottom: 1em;
+}
+.importButtonsWrap button {
+  margin-left: 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 1.5em;
+}
+.no-active {
+  background: none !important;
+  color: #a0a0a0 !important;
+}
+.pause-btn {
+  padding: 8px 0px !important;
+  margin: 0 15px !important;
+}
+.remove-btn {
+  background: none !important;
+  color: #f76d6d !important;
+  padding: 8px 0 !important;
+}
+.importButtonsWrap button:last-child {
+  margin-right: 5px;
+}

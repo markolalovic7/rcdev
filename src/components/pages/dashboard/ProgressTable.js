@@ -1,30 +1,33 @@
 import React, { Component } from "react";
-import ProgressStatus from "./ProgressStatus";
-import {
-  faLongArrowAltRight,
-  faAngleDoubleLeft,
-  faAngleDoubleRight
-} from "@fortawesome/free-solid-svg-icons"; // get our fontawesome imports
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons"; // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../../assets/table.css";
+import "../../../assets/table.css";
+import ProgressStatus from "./ProgressStatus";
 
-class CompletedBatches extends Component {
+class ProgressTable extends Component {
   render() {
     return (
-      <div className="CompletedBatches">
+      <div className="ProgressTable">
         <div className="tg-wrap">
           <table className="tg table">
-            <thead>
-              <tr>
-                <th className="tg-0pky">Batch</th>
-              </tr>
-            </thead>
+            <tr>
+              <th className="tg-0pky" colSpan="4">
+                Batch
+              </th>
+              <th className="tg-0pky" colSpan="5">
+                Documents
+              </th>
+            </tr>
             <tbody>
               <tr className="thead-light">
                 <td className="tg-0pky">Name</td>
                 <td className="tg-0pky">Step</td>
                 <td className="tg-0pky">Action</td>
                 <td className="tg-0pky">Progress</td>
+                <td className="tg-0pky">AutoIndexing</td>
+                <td className="tg-0pky">Validation</td>
+                <td className="tg-0pky">Manual Indexing</td>
+                <td className="tg-0pky">Denied</td>
                 <td className="tg-0pky">No. of docs</td>
               </tr>
               <tr>
@@ -32,8 +35,38 @@ class CompletedBatches extends Component {
                 <td className="tg-0pky">rrr</td>
                 <td className="tg-0pky">rrr</td>
                 <td className="tg-0pky">
-                  <ProgressStatus status="completed" />
+                  <ProgressStatus status="failed" />
                 </td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+              </tr>
+              <tr>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">
+                  <ProgressStatus status="working" />
+                </td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+              </tr>
+              <tr>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">
+                  <ProgressStatus status="pending" />
+                </td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
                 <td className="tg-0pky">rrr</td>
               </tr>
               <tr>
@@ -44,6 +77,23 @@ class CompletedBatches extends Component {
                   <ProgressStatus status="completed" />
                 </td>
                 <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+              </tr>
+              <tr>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">
+                  <ProgressStatus status="working" />
+                </td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
+                <td className="tg-0pky">rrr</td>
               </tr>
               <tr>
                 <td className="tg-0pky">rrr</td>
@@ -53,50 +103,23 @@ class CompletedBatches extends Component {
                   <ProgressStatus status="completed" />
                 </td>
                 <td className="tg-0pky">rrr</td>
-              </tr>
-              <tr>
                 <td className="tg-0pky">rrr</td>
                 <td className="tg-0pky">rrr</td>
                 <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">
-                  <ProgressStatus status="completed" />
-                </td>
-                <td className="tg-0pky">rrr</td>
-              </tr>
-              <tr>
-                <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">
-                  <ProgressStatus status="completed" />
-                </td>
-                <td className="tg-0pky">rrr</td>
-              </tr>
-              <tr>
-                <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">rrr</td>
-                <td className="tg-0pky">
-                  <ProgressStatus status="completed" />
-                </td>
                 <td className="tg-0pky">rrr</td>
               </tr>
             </tbody>
             <tfoot>
               <tr>
-                <td className="tg-0pky">
-                  <i>
-                    <FontAwesomeIcon icon={faAngleDoubleLeft} />
-                  </i>
+                <td className="tg-0pky totalTable">
                   <b>
-                    {" "}
-                    <span className="active">1</span> 2 3 ... 8{" "}
+                    Total batches{" "}
+                    <i>
+                      <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    </i>
                   </b>
-                  <i>
-                    <FontAwesomeIcon icon={faAngleDoubleRight} />
-                  </i>
                 </td>
-                <td className="tg-0pky totalTable">1-8 of 8 batches</td>
+                <td className="tg-0pky">8</td>
                 <td className="tg-0pky emptyTable" />
                 <td className="tg-0pky totalTable">
                   <b>
@@ -107,6 +130,10 @@ class CompletedBatches extends Component {
                   </b>
                 </td>
                 <td className="tg-0pky">0</td>
+                <td className="tg-0pky">0</td>
+                <td className="tg-0pky">0</td>
+                <td className="tg-0pky">0</td>
+                <td className="tg-0pky">0</td>
               </tr>
             </tfoot>
           </table>
@@ -116,4 +143,4 @@ class CompletedBatches extends Component {
   }
 }
 
-export default CompletedBatches;
+export default ProgressTable;

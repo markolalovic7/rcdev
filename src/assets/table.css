@@ -3,7 +3,7 @@
 }
 .table-responsive {
   display: block;
-  overflow-x: auto;
+  /*overflow-x: auto;*/
   width: 100%;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -26,7 +26,7 @@ thead {
 .table th {
   font-size: 0.8125rem;
   border-bottom: 1px solid #e9ecef;
-  color: #9e9e9e;
+  color: #32323d;
   white-space: nowrap;
 }
 

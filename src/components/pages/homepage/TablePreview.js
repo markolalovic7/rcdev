@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../assets/table.css"; // Main.js uses these styles
+import "../../../assets/table.css"; // Main.js uses these styles
 import {
   //faHome,
   faCheck

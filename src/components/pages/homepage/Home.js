@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 //import Aside from "../aside/Aside"; // Aside.js uses these styles
-import "../../assets/home.css"; // Main.js uses these styles
+import "../../../assets/home.css"; // Main.js uses these styles
 import Homepageblock from "./Homepageblock";
 import DashboardChart from "./DashboardChart";
 import TablePreview from "./TablePreview";
-import Breadcrumb from "./Breadcrumb";
+import Breadcrumb from "../Breadcrumb";
 import {
   faHome,
   faFileImport,

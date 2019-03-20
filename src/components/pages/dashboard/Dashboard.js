@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Breadcrumb from "./Breadcrumb";
+
 import { faFileInvoice } from "@fortawesome/free-solid-svg-icons"; // get our fontawesome imports
-import "../../assets/dashboard.css"; // Main.js uses these styles
-import "../../assets/tabs.css";
+import "../../../assets/dashboard.css"; // Dashboard.js uses these styles
+
+import Breadcrumb from "../Breadcrumb";
 import Tabs from "./Tabs";
 import ProgressTable from "./ProgressTable";
 import CompletedBatches from "./CompletedBatches";

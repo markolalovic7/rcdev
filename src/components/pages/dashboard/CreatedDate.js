@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import DatePicker from "react-datepicker";
-import "../../assets/react-datepicker.css";
+import "../../../assets/react-datepicker.css";
 
 class CreatedDatePicker extends Component {
   constructor(props) {

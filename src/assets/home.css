@@ -52,10 +52,10 @@
   grid-column-start: 2;
   grid-column-end: 4;
 }
-.Homepageblock .tagname {
+.tagname {
   overflow: hidden;
 }
-.Homepageblock .tagname h2 {
+.tagname h2 {
   text-transform: uppercase;
   color: #9e9e9e;
   transition: 0.5s;
@@ -63,6 +63,7 @@
   margin-top: 0px;
   font-size: 15px;
   font-weight: 500;
+  line-height: 1;
 }
 .numberInfo span {
   font-weight: bold;
@@ -93,7 +94,7 @@
   float: left;
   width: auto;
 }
-.Homepageblock .description p {
+p {
   font-size: 14px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -101,7 +102,7 @@
   max-height: 21.6px; /* fallback */
   -webkit-line-clamp: 1; /* number of lines to show */
   -webkit-box-orient: vertical;
-  color: #9e9e9e;
+  color: #32323d;
   transition: 0.5s;
   margin-bottom: 0;
 }
